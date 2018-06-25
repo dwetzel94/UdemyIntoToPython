@@ -1,8 +1,29 @@
-name = input("Please enter your name:\n")
-age = int(input("How old are you, {0}?\n".format(name)))
-print(age)
+# name = input("Please enter your name:\n")
+# age = int(input("How old are you, {0}?\n".format(name)))
+# print(age)
+#
+# if age >= 18:
+#     print("You are old enough to vote.\n")
+#     print("Have fun voting")
+# else:
+#     print("Please come back in {0} years".format(18 - age))
 
-if age >= 18:
-    print("You are old enough to vote.\n")
+print("Please guess a number between 1 and 10: ")
+guess = int(input())
+
+if guess < 5:
+    print("Please guess higher")
+    guess = int(input())
+    if guess == 5:
+        print("Well done, you guesses it")
+    else:
+        print("not correct")
+elif guess > 5:
+    print("please guess lower")
+    guess = int(input())
+    if guess == 5:
+        print("Well done, you guessed it")
+    else:
+        print("not correct")
 else:
-    print("Please come back in {0} years".format(18 - age))
+    print("You got it the first time")
