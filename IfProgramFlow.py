@@ -11,19 +11,16 @@
 print("Please guess a number between 1 and 10: ")
 guess = int(input())
 
-if guess < 5:
-    print("Please guess higher")
-    guess = int(input())
-    if guess == 5:
-        print("Well done, you guesses it")
+if guess != 5:
+    if guess < 5:
+        print("Please guess higher")
     else:
-        print("not correct")
-elif guess > 5:
-    print("please guess lower")
+        print("please guess lower")
+
     guess = int(input())
     if guess == 5:
         print("Well done, you guessed it")
     else:
         print("not correct")
 else:
-    print("You got it the first time")
+    print("you got it the first time")
