@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ec1b369-3bfc-405a-971a-8543046374ed" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/IfProgramFlow.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IfProgramFlow.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IfProgramFlow.py">
+      <file leaf-file-name="ForLoops.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ForLoops.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="615">
+              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -41,6 +42,7 @@
         <option value="$PROJECT_DIR$/HelloWorld.py" />
         <option value="$PROJECT_DIR$/.idea/IfProgramFlow.py" />
         <option value="$PROJECT_DIR$/IfProgramFlow.py" />
+        <option value="$PROJECT_DIR$/ForLoops.py" />
       </list>
     </option>
   </component>
@@ -95,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.IfProgramFlow (1)">
+  <component name="RunManager" selected="Python.ForLoops">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -115,6 +117,24 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="ForLoops" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HelloWorld" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ForLoops.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="HelloWorld" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HelloWorld" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,24 +153,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="IfProgramFlow (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HelloWorld" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IfProgramFlow.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="IfProgramFlow" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HelloWorld" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,12 +160,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea" />
+      <option name="SDK_HOME" value="$USER_HOME$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/IfProgramFlow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IfProgramFlow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,14 +195,14 @@
     </configuration>
     <list>
       <item itemvalue="Python.HelloWorld" />
+      <item itemvalue="Python.ForLoops" />
       <item itemvalue="Python.IfProgramFlow" />
-      <item itemvalue="Python.IfProgramFlow (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.IfProgramFlow (1)" />
-        <item itemvalue="Python.IfProgramFlow" />
+        <item itemvalue="Python.ForLoops" />
         <item itemvalue="Python.HelloWorld" />
+        <item itemvalue="Python.IfProgramFlow" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +230,7 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.4002255" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.4002255" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="2" />
@@ -269,17 +271,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/IfProgramFlow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HelloWorld.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
+        <state relative-caret-position="476">
           <caret line="55" column="77" selection-start-line="55" selection-start-column="77" selection-end-line="55" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IfProgramFlow.py">
+    <entry file="file://$PROJECT_DIR$/ForLoops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        <state relative-caret-position="615">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
         </state>
       </provider>
     </entry>
