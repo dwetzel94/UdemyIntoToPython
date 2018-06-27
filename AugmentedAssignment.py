@@ -1,5 +1,3 @@
-
-
 number = "9,223,372,036,854,755,807"
 cleanedNumber = ''
 
@@ -45,3 +43,28 @@ print(answer)
 for i in range(multiplier):
     answer += number
 print(answer)
+
+
+# Program Flow Challenge 1
+
+# Create a program that takes an IP address entered from the keyboard and prints out the number
+# of segments it contains and the length of each segment. IP addresses contain 4 numbers with stops
+# in between but the program should also work with invalid IP addresses.
+
+IPaddress = input("Please enter the IP address.\n")
+segment = 1
+segmentLength = 0
+character = ""
+
+for character in IPaddress:
+    if character == '.':
+        print("segment {0} contains {1} characters".format(segment, segmentLength))
+        segment += 1
+        segmentLength = 0
+    else:
+        segmentLength += 1
+    # last segment does not get printed unless the final character is a '.'
+
+if character != '.':
+    print("segment {0} contains {1} characters".format(segment, segmentLength))
+
