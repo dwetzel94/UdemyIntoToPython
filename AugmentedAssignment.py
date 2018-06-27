@@ -52,9 +52,12 @@ print(answer)
 # in between but the program should also work with invalid IP addresses.
 
 IPaddress = input("Please enter the IP address.\n")
+if IPaddress[-1] != '.':
+    IPaddress += '.'
+
 segment = 1
 segmentLength = 0
-character = ""
+# character = ""
 
 for character in IPaddress:
     if character == '.':
@@ -65,6 +68,6 @@ for character in IPaddress:
         segmentLength += 1
     # last segment does not get printed unless the final character is a '.'
 
-if character != '.':
-    print("segment {0} contains {1} characters".format(segment, segmentLength))
+# if character != '.':
+#     print("segment {0} contains {1} characters".format(segment, segmentLength))
 
